@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.Eventing.Reader;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Digite a base:");
+
+            int b = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Digite a altura:");
+
+            int a = int.Parse(Console.ReadLine());
+
+            int area = b * a;
+
+            Console.WriteLine("Área: " + area);
+            if (area > 100) Console.WriteLine("Terreno grande");
+
+
+
+
+        }
+    }
+}
